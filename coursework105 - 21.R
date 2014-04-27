@@ -35,3 +35,5 @@ group
 groupFac <- as.factor(group)
 
 plot(actualWidth, BPI, pch=group)
+
+aggregate(actualWidth~group, anorexic, mean)
