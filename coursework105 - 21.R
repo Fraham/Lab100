@@ -15,6 +15,10 @@ sum((c - mean(c))^2)
 
 (1/(length(c) - 1) * (sum((c - mean(c))^2)))^0.5
 
+sd(c)
+
+(abs(147 - mean(c)))/sd(c)
+
 #Quetion 3
 
 
