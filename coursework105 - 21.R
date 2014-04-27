@@ -34,4 +34,4 @@ group
 
 groupFac <- as.factor(group)
 
-boxplot(BPI~groupFac, range = 0, col = "red")
+plot(actualWidth, BPI, pch=group)
