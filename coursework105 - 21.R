@@ -37,3 +37,20 @@ groupFac <- as.factor(group)
 plot(actualWidth, BPI, pch=group)
 
 aggregate(actualWidth~group, anorexic, mean)
+
+#Quix question
+
+a <- rep(0, times = 3)
+b <- rep(1, times = 16)
+c <- rep(2, times = 6)
+d <- rep(6, times = 1)
+
+e <- c(a,b,c,d)
+
+e
+
+mean(e)
+
+sd(e)
+
+var(e)
