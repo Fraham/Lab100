@@ -21,7 +21,6 @@ sd(c)
 
 #Quetion 3
 
-
 anorexic <- read.table(file("anorexics.dat"))
 
 BPI <- anorexic[,1]
